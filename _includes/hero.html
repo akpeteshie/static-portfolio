@@ -7,6 +7,9 @@
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
+
+    padding-top: 20vh;
+    height: 100vh !important;
 }
 .jumbotron-btns {
   display: block;
@@ -24,11 +27,17 @@
   <p class="jumbotron-heading">Hi, I am {{site.author}} !</p>
 
   <p class="lead" id="typewriteText"></p>
+
+  <!-- Github links  --> 
+
   <span>
     {%- include github_star_button.html -%}
     {%- include github_fork_button.html -%}
   </span>
-  <!-- uncomment/modify buttons as you want-->
+ 
+
+  <!-- Jumbotron Buttons -->
+
   <div class="jumbotron-btns">
     <a href="{{site.url}}{{site.baseurl}}/get-started">
       <button class="btn btn-md btn-warning"> <strong>Get Started</strong> </button>

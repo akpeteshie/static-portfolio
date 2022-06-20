@@ -111,24 +111,24 @@ ol, ul {
 
 /* Progress bar */
 .progressline .bar {
-    background: #f69801;
+    background: #53f601;
 }
 
 /* On scroll progress bar */
 #progress-bar {
-    background: linear-gradient(to right, #f69801 var(--progress), transparent 0);
+    background: linear-gradient(to right, #01def6 var(--progress), transparent 0);
     height: 5px;
     position: fixed;
     width: 100%;
     overflow: hidden;
-    z-index: 1;
-    margin-top: 25px;
+    z-index: 5;
+    margin-top: 23px;
 }
 
 body {
     background-color: var(--main-background-color) !important;
     color: var(--main-text-color) !important;
-    font-family: 'Quicksand', sans-serif !important;
+    font-family: 'Noto Serif', serif !important;
     font-feature-settings: "kern"on;
     font-size: 1.4rem;
     font-variant-numeric: oldstyle-nums;
@@ -183,17 +183,17 @@ blockquote {
 
   /* Track */
   ::-webkit-scrollbar-track {
-    background:  rgb(28, 28, 30);;
+    background: var(--sidebar-color);
   }
 
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #212529;
+    background: var(--highlight-color);
   }
 
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #333;
+    background: var(--underline-color);
   }
 
 h1, h2, h3, h4, h5, h6 {
@@ -507,7 +507,6 @@ header {
     background-color:  var(--main-background-color) !important;
 }
 
-
 /* pagination */
 .pagination-link{
     padding:15px;
@@ -643,19 +642,23 @@ header {
 
 #article-img, #article-link, #article-alert {
     padding-left: 5px;
-    padding-top: 2px;
+    padding-top: 5px;
+    padding-bottom: 10px;
     margin: 5px;
 }
 .recent-article-link{
     font-size: 20px;
     text-decoration: none;
 }
-.article-card-link, .article-card-link:hover{
+.article-card-link, .article-card-link :hover{
     text-decoration: none;
     color: orange !important;
 }
 .article-card{
     list-style-type: none;
+    border-radius: 5px;
+    border-color: #303030 !important;
+    overflow: hidden;
 }
 .article-card a :hover{
     text-decoration: none;
@@ -742,13 +745,14 @@ header {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-
+/*
 #newsletter_footer {
     background-color: var(--newsletter-background-color);
     color: var(--main-text-color);
     text-align: center;
     margin-top: 100px;
 }
+*/
 
     #mc-embedded-subscribe-form {
         width: 100%;
