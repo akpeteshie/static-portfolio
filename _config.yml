@@ -14,12 +14,14 @@ urls:
       url: /about
     - text: Portfolio
       url: /blog
-    - text: Gallery
-      url: /gallery
-    - text: Shop
-      url : /shop
-    - text: Contact
-      url : /contact
+    - text: Resume
+      url: /resume
+    # - text: Gallery
+    #   url: /gallery
+    # - text: Shop
+    #   url : /shop
+    # - text: Contact
+    #   url : /contact
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
