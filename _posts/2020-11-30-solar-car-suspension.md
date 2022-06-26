@@ -21,6 +21,7 @@ Longhorn Racing (LHR) is a student organization at the University of Texas at Au
 <h2>Trailing Arm</h2>
 <br />
 <img
+      style="margin-top: 8px; margin-bottom: 15px"
       class="card-img-top"
       src="{{site.url}}{{site.baseurl}}/assets/img/posts/t_arm.png"
       alt="{{ post.title }}"
@@ -31,7 +32,7 @@ The initial design I implemented was a trailing arm suspension out of considerat
 <h2> Double Wishbone </h2>
 <img
       class="card-img-top"
-      style="float:right"
+      style="float:right; margin-top: 8px; margin-bottom: 15px"
       src="{{site.url}}{{site.baseurl}}/assets/img/posts/d_wishbone.png"
       alt="{{ post.title }}"
     />

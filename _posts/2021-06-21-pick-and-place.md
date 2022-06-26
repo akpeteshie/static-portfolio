@@ -21,7 +21,7 @@ A pick and place machine is a device that automates the placement of surface-mou
 <h2>Movement System</h2>
 <br />
 <img
-      style="float:left"
+      style="width: 30%; height:30%; float:left; margin-bottom:10px"
       src="{{site.url}}{{site.baseurl}}/assets/img/posts/corexy.png"
       alt="{{ post.title }}"
     />
@@ -29,7 +29,7 @@ A pick and place machine is a device that automates the placement of surface-mou
 The initial design of this pick and place used the traditional xy gantry system, where the motors individually controlled the x and y axes of the machine. The problem with this was that it required the x-axis motor to be mounted on a moving rail.
 </p>
 <img
-      style="float:right"
+      style="width:30%; height:30%; float:right"
       src="{{site.url}}{{site.baseurl}}/assets/img/posts/pnp_corexy.png"
       alt="{{ post.title }}"
     />
@@ -42,6 +42,7 @@ The initial design of this pick and place used the traditional xy gantry system,
 <h2>Electronics</h2>
 <br />
 <img
+      style="width: 40%; height:40%; float: left"
       class="card-img-top"
       src="{{site.url}}{{site.baseurl}}/assets/img/posts/pnp_electronics.png"
       alt="{{ post.title }}"
