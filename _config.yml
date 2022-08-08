@@ -12,8 +12,8 @@ urls:
       url: /
     - text: About
       url: /about
-    - text: Projects
-      url: /blog
+    # - text: Projects
+    #   url: /blog
     - text: Resume
       url: /resume
     # - text: Gallery
@@ -33,7 +33,7 @@ author_email: "selasietse@gmail.com"
 author_location: United States
 author_website_url: :url
 typewrite-text: This is the website I built to showcase my work
-hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
+hero_cover_img: jumbotron-img.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:

@@ -128,7 +128,7 @@ ol, ul {
 body {
     background-color: var(--main-background-color) !important;
     color: var(--main-text-color) !important;
-    font-family: 'Noto Serif', serif !important;
+    font-family: 'Monospace', serif !important;
     font-feature-settings: "kern"on;
     font-size: 1.4rem;
     font-variant-numeric: oldstyle-nums;
@@ -528,6 +528,15 @@ header {
 
 .jumbotron-heading{
     font-size: 35px;
+    font-family: Grotesk;
+    color: yellow !important;
+    font-weight: bold;
+}
+
+#typewriteText{
+    font-family: Antikor;
+    font-weight:  bold;
+    color: yellow;
 }
 
 .lead {
@@ -635,9 +644,11 @@ header {
 }
 
 #recent-articles-header{
-    display: grid;
+    // display: grid;
     width: 100%;
-    grid-template-columns: 17fr 2fr;
+    justify-content: center;
+    border-color: red !important;
+    // grid-template-columns: 17fr 2fr;
 }
 
 #article-img, #article-link, #article-alert {
@@ -736,10 +747,10 @@ header {
 .blog-post {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
-    width: 45%;
+    width: 20%;
     height: auto;
     margin: 5px !important;
-    display: block;
+    display: inline-block;
 }
 
 .blog-post:hover {

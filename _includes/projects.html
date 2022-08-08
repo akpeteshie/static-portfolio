@@ -1,0 +1,181 @@
+<link rel="stylesheet" type="text/css" href="{{site.url}}{{site.baseurl}}/assets/css/projects.css"/>
+
+<section id="project-list">
+    <div id="projects-header">
+        <h1>RECENT PROJECTS</h1>
+    </div>
+  
+    <div class="project">
+      <div class="process">
+        <h6>Process</h3>
+        <ol>
+          <li>Design of the gantry system in <mark>SOLIDWORKS</mark></li>
+          <li>Configuration of the control board firmware using <mark>Marlin</mark></li>
+          <li>Assembly of the gantry system to move the head around the workspace using stepper motors</li>
+        </ol>
+      </div>
+      
+      <div class="details">
+        <div>
+          <h1>PICK AND PLACE</h1>
+          <p>A component placement machine designed to automate the assembly of surface mount devices on PCBs</p>
+        </div>
+        <img src="{{site.url}}{{site.baseurl}}/assets/img/posts/pnp_electronics.png" />
+        <img src="{{site.url}}{{site.baseurl}}/assets/img/posts/pnp_complete.png" />
+        <img src="{{site.url}}{{site.baseurl}}/assets/img/posts/pnp_corexy.png" />
+      </div>
+        
+      <div class="result">
+        <h6>Result</h6>
+        <ol>
+            <li></li>
+        </ol>
+      </div>
+    </div>
+  
+    <div class="project">
+        <div class="process">
+          <h6>Process</h3>
+          <ol>
+            <li>Design in <mark>Autodesk Fusion 360</mark></li>
+            <li>Fabrication with a <mark>3D Printer</mark></li>
+          </ol>
+        </div>
+        
+        <div class="details">
+          <div>
+            <h1>CAR DIFFERENTIAL MODEL</h1>
+            <p>A model of the differential gear system used by the drive train of automobiles</p>
+          </div>
+          <img src="{{site.url}}{{site.baseurl}}/assets/img/posts/car-diff-2.png" />
+          <img src="{{site.url}}{{site.baseurl}}/assets/img/posts/car-diff-3.png" />
+          <img src="{{site.url}}{{site.baseurl}}/assets/img/posts/car-diff-4.png" />
+          <img src="{{site.url}}{{site.baseurl}}/assets/img/posts/car-diff-6.png" />
+        </div>
+          
+        <div class="result">
+          <h6>Result</h6>
+          <ol>
+            <li>The system locks and functions as it should.</li>
+            <li>The mounted bevel gears (white) need more support to improve the firmness and sturdiness of the system</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="process">
+          <h6>Process</h3>
+          <ol>
+            <li>Wiring prototype using a breadboard, Arduino, motors, and a proximity sensor</li>
+            <li>Soldering finalized connections on perfboard</li>
+            <li>Assembling wired parts into compact design to fit in can</li>
+            <li>Inserting electronics into can</li>
+          </ol>
+        </div>
+        
+        <div class="details">
+          <div>
+            <h1>ROLL-AWAY CAN</h1>
+            <p>A can designed to roll away from you if you try to pick it up using a wheeled robot placed inside an aluminum can</p>
+          </div>
+          <img src="{{site.url}}{{site.baseurl}}/assets/img/posts/roll-1.png" />
+          <img src="{{site.url}}{{site.baseurl}}/assets/img/posts/roll-2.png" />
+          <img src="{{site.url}}{{site.baseurl}}/assets/img/posts/roll-3.png" />
+          <img src="{{site.url}}{{site.baseurl}}/assets/img/posts/roll-4.png" />
+          <img src="{{site.url}}{{site.baseurl}}/assets/img/posts/roll-5.png" />
+        </div>
+          
+        <div class="result">
+          <h6>Result</h6>
+          <ol>
+            <li>After careful positioning of the parts in the can, the robot functions as intended</li>
+            <li>The parts need to be assembled more compactly to give the wheels on the motors more space to rotate</li>
+            <li>The motors provided only sufficient torque to carry the load of the device, so stronger motors are needed to comfortably drive the can</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="process">
+          <h6>Process</h3>
+          <ol>
+            <li>Design in <mark>SOLIDWORKS</mark></li>
+            <li><mark>FEA</mark> of the models under varied loads</li>
+          </ol>
+        </div>
+        
+        <div class="details">
+          <div>
+            <h1>SOLAR CAR SUSPENSION</h1>
+            <p>Suspension design prototypes for a solar powered car built for Longhorn Racing Solar</p>
+          </div>
+          <img src="{{site.url}}{{site.baseurl}}/assets/img/posts/tarm_1.png" style="width:49%; height:auto" /> 
+          <img src="{{site.url}}{{site.baseurl}}/assets/img/posts/dwishbone.png" style="width:49%; height:auto" />         
+        </div>
+          
+        <div class="result">
+          <h6>Result</h6>
+          <ol>
+            <li>The parts designed passed a finite element analysis for the predicted loads it would experience in the car</li>
+          </ol>
+        </div>
+      </div>
+
+      <!-- <div class="project">
+        <div class="process">
+          <h6>Process</h3>
+          <ol>
+            <li>Design in <mark>SOLIDWORKS</mark></li>
+            <li>3D printed prototype</li>
+          </ol>
+        </div>
+        
+        <div class="details">
+          <div>
+            <h1>PROJECT</h1>
+            <p>These are the details of the project</p>
+          </div>
+        </div>
+          
+        <div class="result">
+          <h6>Result</h6>
+          <ol>
+  
+          </ol>
+        </div>
+      </div> -->
+
+</section>
+  
+    <!-- <ul>
+      {% for post in site.posts limit:5 %}
+      <li class="article-card">
+        <a href="{{post.url}}" class="article-card-link">
+          <div id="article-container">
+            <div id="article-img">
+              {% if post.author %}
+                {% assign author = post.author %}
+                {% if author %}
+                 {% assign author_data = site.data.authors[author] %}
+                 <img
+                  src="{{site.url}}{{site.baseurl}}/assets/img/authors/{{author_data.avatar}}"
+                  width="50px"
+                  height="50px"
+               />
+                {% endif %}
+              {% endif %}
+  
+            </div>
+            <div id="article-link">
+                <p class="recent-article-link">{{post.title}} <span style="color: #ccc; font-size: 15px;"> - <i><time datetime="{{ post.date }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time></i></span></p>
+            </div>
+            <div id="article-alert">
+              {% for cat in post.category limit:1 %}
+               <button class="btn btn-sm btn-dark">{{cat}}</button>
+              {% endfor %}
+            </div>
+          </div>
+        </a>
+      </li>
+      {% endfor %}
+    </ul> -->

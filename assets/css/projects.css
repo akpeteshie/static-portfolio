@@ -1,0 +1,87 @@
+@font-face{
+    font-family: Antikor;
+    src: url(https://github.com/penieldev/antikor-mono-ligaturized/blob/main/AntikorMono-Regular.ttf?raw=true)
+  }
+  
+  @font-face{
+    font-family: Grotesk;
+    src: url(https://github.com/floriankarsten/space-grotesk/blob/master/fonts/ttf/SpaceGrotesk%5Bwght%5D.ttf?raw=true);
+  }
+  
+  #project-list{
+      width: 100%;
+      display: grid;
+      grid-template-columns: 100vw;
+      grid-template-rows: 20vh 50vh 50vh 50vh 50vh;
+      grid-gap: 20px;
+  }
+  
+  #projects-header{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 3px 5px 3px #f0f0f0;
+    
+      font-family: Grotesk;
+      font-size: 3em;
+      letter-spacing: 1px;
+  }
+  
+  .project{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 20% 50% 20%;
+    grid-gap: 3%;
+    justify-content: center;
+    background-color: #f0f0f0;
+    overflow: hidden;
+  }
+  
+  .process, .result {
+      text-align: center;
+      font-family: Antikor;
+      margin-top: 40px;
+  }
+  
+  .process h3, .result h3{
+    margin-bottom: 0;
+  }
+  
+  .process ol, .result ol{
+    border-top: solid 2px #c9c9c9;
+    padding-top: 10px;
+    margin-top: 13px;
+  }
+
+  .process li, .result li{
+    margin: 8px;
+    background-color: #e4ebe5;
+    font-size: small;
+  }
+  
+  .details h1{
+    text-align: center;
+    font-family: Grotesk;
+    margin: 0;
+    padding-top: 0;
+  }
+  
+  .details p{
+    margin-top: 0;
+    text-align: center;
+    font-family: Antikor;
+    font-size: small;
+  }
+  
+  .details div{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding-top: 0px;
+    border-radius: 0 0 5px 5px;
+  }
+  
+  .details img{
+    width: 200px;
+    height: auto;
+  }
