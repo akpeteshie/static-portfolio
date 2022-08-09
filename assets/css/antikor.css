@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Antikor Mono';
+    src: local('Antikor Mono Regular'), local('Antikor-Mono-Regular'),
+        url('AntikorMono-Regular.woff2') format('woff2'),
+        url('AntikorMono-Regular.woff') format('woff'),
+        url('AntikorMono-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
