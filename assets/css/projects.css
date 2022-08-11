@@ -21,6 +21,17 @@
          url('../fonts/space-grotesk-v12-latin-regular.svg#SpaceGrotesk') format('svg'); /* Legacy iOS */
   }
   
+  #profile{
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+  }
+
+  #profile img{
+    width: 100px;
+    height: 100px;
+  }
+
   #project-list{
       width: 100%;
       display: grid;
